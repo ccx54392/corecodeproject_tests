@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="integration-test" verbose="1" data-provider-thread-count="1">
+    <!--
+    mvn test -Dtest=WriterTest
+    -->
+    <test name="integration-test">
+        <classes>
+            <class name="integrationTesting.WriterTest"/>
+            <class name="integrationTesting.PublisherTest"/>
+            <class name="integrationTesting.ReviewTest"/>
+            <class name="integrationTesting.BooksTest"/>
+            <class name="integrationTesting.UserTest"/>
+        </classes>
+    </test>
+
+    <listeners>
+        <listener class-name="io.corecode.listeners.MyListener"></listener>
+    </listeners>
+</suite>
