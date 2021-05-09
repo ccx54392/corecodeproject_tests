@@ -4,7 +4,7 @@ public class MyConstants {
     /**
      * api
      */
-    public static String url="http://myapi-env.eba-3me5caza.us-east-2.elasticbeanstalk.com/";
+    public static String url="https://corecodeqa-myapi.herokuapp.com/";
     //public static String url="http://localhost:8080/myapi/";
     //public static String url="http://localhost:8080/";
 
@@ -12,7 +12,7 @@ public class MyConstants {
     /**
      * website
      */
-    public static String website="http://mywebsite2-env.eba-yihsxqmu.us-east-2.elasticbeanstalk.com/";
+    public static String website="https://corecodeqa-mywebsite.herokuapp.com/";
     //public static String website="http://localhost:8080/";
 
     static {
